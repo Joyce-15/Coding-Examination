@@ -1,7 +1,11 @@
 # Coding-Examination
 
 ## ITEM NO. 1
+  #include<iostream>
+   using namespace std; 
   
+ int main() 
+ { 
     int num[9] = {5, 1, 4, 6, 7, 3, 5, 7, 3}; 
     int i, j; 
     int size = sizeof(num)/sizeof(num[0]); 
@@ -17,7 +21,7 @@
                  cout<< num[i] << " "; 
       
      return 0; 
-
+}
 
 
 
@@ -25,6 +29,11 @@
 
 ## ITEM NO. 2 
 
+#include<iostream>
+   using namespace std; 
+  
+ int main() 
+ { 
     int i,j; 
     for(i = 1; i<7; i++){ 
       for(j= 0; j<i; j++){ 
@@ -34,11 +43,15 @@
     } 
     return 0; 
  
-
+}
 
 
 ## ITEM NO. 3
-
+#include<iostream>
+   using namespace std; 
+  
+ int main() 
+ { 
 double hired_m,hired_f, permanent_m, permanent_f,resigned_m, resigned_f, total_hired, total_permanent, total_resigned; 
   
  cout<< "Enter the number of newly hired males: "; 
@@ -79,3 +92,4 @@ double hired_m,hired_f, permanent_m, permanent_f,resigned_m, resigned_f, to
  cout<< "FemalCompilee = " << printf("%.2f",(resigned_f / total_resigned) *100.0) <<"%" <<endl;     
   
  return 0;
+}
